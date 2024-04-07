@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버터샵</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 폰트어썸 -->
+    <script src="https://kit.fontawesome.com/f3c9d07c5d.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="centerbox">
+            <div class="log_box">
+                <!-- 로그인전 -->
+                <div class="login">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">마이페이지</a>
+                    <a href="#">장바구니<span class="basket_ea">99</span></a>
+                </div>
+                <!-- // 여기까지 로그인전 -->
+
+                <!-- 로그인후 -->
+                <div class="logout">
+                    <a href="#">로그아웃</a>
+                    <a href="#">마이페이지</a>
+                </div>
+                <!-- // 여기까지 로그인후 -->
+            </div>
+            <h1><a href="sub.html">
+                <img src="images/logo.png" alt="버터샵">
+            </a></h1>
+            <div class="search_box">
+                <input type="text">
+                <button>
+                    <!-- 폰트어썸- 돋보기 아이콘 -->
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="gnb_box">
+            <nav>
+                <ul class="gnb">
+                    <li><a href="sub.html">베스트</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+                            <ul class="lnb">
+                                <li><a href="#">인형</a></li>
+                                <li><a href="#">문구</a></li>
+                                <li><a href="#">리빙</a></li>
+                                <li><a href="#">패션</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">신상품</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+                            <ul class="lnb">
+                                <li><a href="#">인형</a></li>
+                                <li><a href="#">문구</a></li>
+                                <li><a href="#">리빙</a></li>
+                                <li><a href="#">패션</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">기획전</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+                            <ul class="lnb">
+                                <li><a href="#">버터기획전</a></li>
+                                <li><a href="#">문구</a></li>
+                                <li><a href="#">리빙</a></li>
+                                <li><a href="#">패션</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">이벤트</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+                            <ul class="lnb">
+                                <li><a href="#">출석체크</a></li>
+                                <li><a href="#">멤버십/쿠폰</a></li>
+                                <li><a href="#">첫구매할인</a></li>
+                                <li><a href="#">페이백</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+                            <ul class="lnb">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">1:1 문의하기</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">리뷰</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="visual">
+        <div class="char_box">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/m_li1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/m_li2.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/m_li3.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/m_li4.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="section_box">
+        <section id="section1">
+            <div class="centerbox">
+                <h2 data-300="opacity:0; margin-top:100px"
+                    data-500="opacity:1; margin-top:0px">
+                    지금 뜨고 있는 베스트
+                    <span>가장 인기 있는 아이템이에요.</span>
+                </h2>
+                <!-- h2에는 (inline 속성이라서) 자식으로 p(block 속성), div(block 속성) 태그안됨 -->
+
+                <!-- 찜하면 .favorite / 취소하면 .no-favorite -->
+                <ul class="cont">
+                    <li>
+                        <a href="sub.html">
+                            <figure><img src="images/img_sec1.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 피크닉 친구들 set
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">50,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/img_sec2.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 버터군 스탠딩 인형
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">16,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/img_sec3.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 시럽베어 스탠딩 인형
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">16,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/img_sec4.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 스크래빗 바디필로우
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">16,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/img_sec5.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 밀크캣 바디필로우
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">16,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+        <section id="section2">
+            <div class="centerbox">
+                <ul class="cont"
+                data-1244="margin-left:-400px"
+                data-1644="margin-left:0px"
+                >
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_1.png" alt=""></figure>
+                        </a>
+                        <div class="title">인형</div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_2.png" alt=""></figure>
+                        </a>
+                        <div class="title">문구</div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_3.png" alt=""></figure>
+                        </a>
+                        <div class="title">리빙</div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_4.png" alt=""></figure>
+                        </a>
+                        <div class="title">패션</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section3">
+            <div class="centerbox swiper mySwiper">
+                <ul class="cont swiper-wrapper">
+                    <li class="swiper-slide"
+                        data-1900="opacity:1"
+                        data-1950="opacity:0"
+                        data-2000="opacity:1">
+                        <a href="#"><img src="images/banner11_20.png" alt=""></a>
+                    </li>
+                    <li class="swiper-slide"
+                        data-2000="opacity:1"
+                        data-2050="opacity:0"
+                        data-2100="opacity:1">
+                        <a href="#"><img src="images/banner22_22.png" alt=""></a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#"><img src="images/banner11_20.png" alt=""></a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#"><img src="images/banner22_22.png" alt=""></a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#"><img src="images/banner11_20.png" alt=""></a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div class="centerbox">
+                <h2>
+                    NEW ITEMS !
+                    <span>상상 이상으로 귀여운 신제품을 만나보세요. </span>
+                </h2>
+
+                <div class="cont_box">
+                    <figure><img src="images/sec4_img1.png" alt=""></figure>
+                    <ul class="cont">
+                        <li data-2840="border-radius:100px"
+                            data-3200="border-radius:0"><a href="#"><img src="images/sec4_img2.png" alt=""></a></li>
+                        <li data-2840="border-radius:100px"
+                            data-3200="border-radius:0"><a href="#"><img src="images/sec4_img3.png" alt=""></a></li>
+                        <li data-2840="border-radius:100px"
+                            data-3200="border-radius:0"><a href="#"><img src="images/sec4_img4.png" alt=""></a></li>
+                        <li data-2840="border-radius:100px"
+                            data-3200="border-radius:0"><a href="#"><img src="images/sec4_img5.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5">
+            <a href="#">
+                <img src="images/banner.png" alt="">
+            </a>
+        </section>
+
+        <section id="section6">
+            <div class="centerbox">
+                <h2>
+                    버터 MD의 추천
+                    <span>일상에서 기분 좋은 순간이 찾아 올 거예요.</span>
+                </h2>
+                <!-- h2에는 (inline 속성이라서) 자식으로 p(block 속성), div(block 속성) 태그안됨 -->
+
+                <!-- 찜하면 .favorite / 취소하면 .no-favorite -->
+                <ul class="cont">
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_1.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 스크래빗 베개 필통
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">15,000원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_2.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 버터곰 인센스 홀더
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">4,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_3.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 뽀글이 밀크캣 키링
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">6,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_4.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 복슬복슬 밀크캣 키링
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">7,500원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_5.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 버터곰 키링 셋째
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">4,000원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_6.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 밀크캣 틴케이스 (부적)
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">5,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_7.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 말랑폭신 밀크캣 목베개
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">19,900원</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec5_8.png" alt=""></figure>
+                            <div class="cont_ex">
+                                <div class="title">
+                                    BT 버터군 키링 카드세트
+                                    <span class="favorite">♡</span>
+                                    <!-- <span class="favorite">♥</span> -->
+                                </div>
+                                <div class="price">5,000원</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="prod_today">
+        <h2>최근 본 상품</h2>
+        <ul>
+            <li><a href="#"><img src="images/today1.png" alt=""></a></li>
+            <li><a href="#"><img src="images/today2.png" alt=""></a></li>
+            <li><a href="#"><img src="images/today3.png" alt=""></a></li>
+            <li><a href="#"><img src="images/today4.png" alt=""></a></li>
+            <li><a href="#"><img src="images/today5.png" alt=""></a></li>
+            <li><a href="#"><img src="images/today6.png" alt=""></a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="centerbox">
+            <h1><a href="sub.html">
+                <img src="images/logo.png" alt="버터샵">
+            </a></h1>
+            
+            <div class="text">
+                <nav>
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">IR</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                </nav>
+                <p>주소 : 서울특별시 구로구 경인로 662 (디큐브시티) 14층 <br>
+                    회사명 : MH&CO.   l    대표이사 : 오상흔    l    개인정보책임자 :이효영 <br>
+                    사업자등록번호 : 821-87-00617    l    통신판매업번호 : 2017-서울구로-1368 
+                </p>
+            </div>
+
+            <div class="icon">
+                <ul>
+                    <li><a href="#"><img src="images/icon1.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon2.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon3.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/icon4.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/action.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+        });
+    </script>
+
+    <script src="script/skrollr.min.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+</body>
+</html>
